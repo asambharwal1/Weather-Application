@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aashishssg.myapplication.Day1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textPage1"
+        android:layout_gravity="center"
+        android:paddingTop="400dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="234dp"
+        android:layout_height="234dp"
+        android:id="@+id/imagePage1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/bigtextPage1"
+        android:layout_gravity="center"
+        android:paddingTop="85dp"
+        android:paddingBottom="0dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/locationPage1"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>

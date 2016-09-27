@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aashishssg.myapplication.Day1">
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="REFRESH/APPLY CHANGES"
+        app:showAsAction="always" >
+    </item>
+    <item
+        android:id="@+id/differentsettings"
+        android:orderInCategory="100"
+        android:title="Units"
+        app:showAsAction="never" >
+    </item>
+</menu>

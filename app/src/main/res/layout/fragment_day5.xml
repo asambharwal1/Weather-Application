@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aashishssg.myapplication.Day5">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textPage5"
+        android:layout_gravity="center"
+        android:paddingTop="400dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/bigtextPage5"
+        android:layout_gravity="center"
+        android:paddingTop="85dp"
+        android:textSize="50dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="234dp"
+        android:layout_height="234dp"
+        android:id="@+id/imagePage5"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="50dp" />
+
+</FrameLayout>

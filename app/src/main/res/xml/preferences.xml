@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Find Location">
+<EditTextPreference android:title="Search Location" android:id="@+id/location" android:key="location"></EditTextPreference>
+</PreferenceCategory>
+
+    <PreferenceCategory android:title="Select Unit:">
+        <SwitchPreference android:title="Metric" android:id="@+id/met" android:key="metric"></SwitchPreference>
+        <SwitchPreference android:title="Imperial" android:id="@+id/imp" android:key="imperial"></SwitchPreference>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
